@@ -3,7 +3,7 @@ module Players
   class Computer < Player
     attr_accessor :game, :board
 
-    def move(board = game.board)
+    def move(board)
       if board.valid_move?("5")
           "5"
         elsif board.valid_move?("3")
