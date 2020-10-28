@@ -50,7 +50,7 @@ end
 
 def turn
   puts "It's #{self.current_player.token}'s turn."
-  input = self.current_player.move(input)
+  input = self.current_player.move(board)
   if @board.valid_move?(input)
     @board.update(input, current_player)
   else
