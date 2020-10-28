@@ -1,7 +1,5 @@
-require_relative '../lib/players/computer'
-require_relative '../lib/players/human'
+
 class Board
-  extend Players
   attr_accessor :cells, :player, :game
 
   def reset!
