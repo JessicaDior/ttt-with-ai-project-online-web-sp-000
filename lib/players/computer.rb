@@ -5,23 +5,23 @@ module Players
 
     def move(board)
 
-      if game.board.valid_move?("5")
+        if board.valid_move?("5")
           "5"
-        elsif game.board.valid_move?("3")
+        elsif board.valid_move?("3")
           "3"
-        elsif game.board.valid_move?("1")
+        elsif board.valid_move?("1")
           "1"
-        elsif game.board.valid_move?("7")
+        elsif board.valid_move?("7")
           "7"
-        elsif game.board.valid_move?("9")
+        elsif board.valid_move?("9")
           "9"
-        elsif game.board.valid_move?("4")
+        elsif board.valid_move?("4")
           "4"
-        elsif game.board.valid_move?("2")
+        elsif board.valid_move?("2")
           "2"
-        elsif game.board.valid_move?("6")
+        elsif board.valid_move?("6")
           "6"
-        elsif game.board.valid_move?("8")
+        elsif board.valid_move?("8")
           "8"
       end
     end
