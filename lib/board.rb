@@ -1,4 +1,5 @@
 class Board
+  include Players
   attr_accessor :cells, :player, :game
 
   def reset!
