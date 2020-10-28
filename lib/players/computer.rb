@@ -24,7 +24,6 @@ module Players
       elsif board.valid_move?("8")
         "8"
       end
-      end
     end
   end
 
