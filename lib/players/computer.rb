@@ -1,6 +1,7 @@
 require_relative '../player'
 module Players
   class Computer < Player
+    attr_accessor :game
 
     def move(board)
       board = Game.board
