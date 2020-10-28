@@ -1,9 +1,9 @@
 require_relative '../player'
 module Players
   class Computer < Player
-    attr_accessor :game
+    attr_accessor :game, :board
 
-    def move(input)
+    def move(board)
       if board.valid_move?("5")
           "5"
         elsif board.valid_move?("3")
