@@ -5,7 +5,11 @@ module Players
     attr_accessor :board, :game
 
     def move(board)
-      if board.valid_move?("5")
+      if self.token == "X"
+        number = rand(8)
+       number.to_s
+     elsif self.token == "O" 
+       if board.valid_move?("5")
         "5"
       elsif board.valid_move?("3")
         "3"
