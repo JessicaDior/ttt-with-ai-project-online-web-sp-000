@@ -1,4 +1,4 @@
-require_relative '../lib/players/'
+require_relative '../lib/players/computer'
 class Board
   include Players
   attr_accessor :cells, :player, :game
