@@ -5,23 +5,23 @@ module Players
     attr_accessor :board, :game
 
     def move(board)
-        if "5" == Board.valid_move?("5")
+        if "5" == board.valid_move?("5")
           "5"
-        elsif "3" == Board.valid_move?("3")
+        elsif "3" == board.valid_move?("3")
           "3"
-        elsif "1" == Board.valid_move?("1")
+        elsif "1" == board.valid_move?("1")
           "1"
-        elsif "7" == Board.valid_move?("7")
+        elsif "7" == board.valid_move?("7")
           "7"
-        elsif "9" == Board.valid_move?("9")
+        elsif "9" == board.valid_move?("9")
           "9"
-        elsif "4" == Board.valid_move?("4")
+        elsif "4" == board.valid_move?("4")
           "4"
-        elsif "2" == Board.valid_move?("2")
+        elsif "2" == board.valid_move?("2")
           "2"
-        elsif "6" == Board.valid_move?("6")
+        elsif "6" == board.valid_move?("6")
           "6"
-        elsif "8" == Board.valid_move?("8")
+        elsif "8" == board.valid_move?("8")
           "8"
       end
     end
