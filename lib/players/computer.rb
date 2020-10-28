@@ -1,3 +1,4 @@
+require_relative '../player'
 module Players
   class Computer < Player
 
