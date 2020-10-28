@@ -5,7 +5,7 @@ module Players
     attr_accessor :board, :game
 
     def move(board)
-      if valid_move?("5")
+      if board.valid_move?("5")
         "5"
       elsif board.valid_move?("3")
         "3"
